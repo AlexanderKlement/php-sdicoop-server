@@ -51,7 +51,7 @@ require_once('/path/to/php-sdicoop-server/examples/ricezione-fatture.php');
 ** Install
 *** Composer
 #+BEGIN_SRC 
-composer require taocomp/php-sdicoop-server
+composer require klement-alexander/php-sdicoop-server
 #+END_SRC
 
 *** Manually
