@@ -47,7 +47,7 @@ class FileSdIBase
         return "NomeFile:{$this->NomeFile}";
     }
 
-    public function import( $file )
+    public function import( $file , $removeBom = true)
     {
         if (false === is_readable($file)) {
             throw new \Exception("'$file' not found or not readable");
@@ -55,7 +55,8 @@ class FileSdIBase
 
         $this->NomeFile = basename($file);
         $this->File = file_get_contents($file);
-        $this->removeBOM();
+        if($removeBom)
+            $this->removeBOM();
 
         return $this;
     }
