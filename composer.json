@@ -1,6 +1,6 @@
 {
-    "name": "taocomp/php-sdicoop-server",
-    "description": "A PHP package for implementing web services required by the Italian Exchange System",
+    "name": "klement-alexander/php-sdicoop-server",
+    "description": "A PHP package for implementing web services required by the Italian Exchange System - Credits to taocomp!",
     "require": {
         "php": ">=5.5"
     },
@@ -17,6 +17,12 @@
             "name": "Alessandro De Donno",
             "email": "e-invoicing@taocomp.com",
             "homepage": "https://taocomp.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Alexander Klement",
+            "email": "alexander.klement@gmail.com",
+            "homepage": "https://feldthurns.online",
             "role": "Developer"
         }
     ]
