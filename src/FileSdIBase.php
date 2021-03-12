@@ -38,7 +38,7 @@ class FileSdIBase
         
             $this->NomeFile = $parametersIn->NomeFile;
             $this->File = $parametersIn->File;
-            $this->removeBOM();
+            //$this->removeBOM();
         }
     }
 
